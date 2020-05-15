@@ -1,3 +1,14 @@
-import React from "react"
+import React from 'react'
+import Navbar from "./components/navbar"
+import "../styles/navbar.scss"
+import '../styles/index.scss'
 
-export default () => <div>Hello world!</div>
+const index = () => {
+    return (
+        <div>
+            <Navbar/>
+        </div>
+    )
+}
+
+export default index

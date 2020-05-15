@@ -16,3 +16,18 @@ $VaryLightGray: hsl(0, 0%, 98%);
 
 $Mainfontfamily: 'Be Vietnam';
 
+
+
+
+@mixin btn {
+    background-color: $BrightRed;
+    font-family: $Mainfontfamily;
+    color: $VeryPaleRed;
+    height: 4vh;
+    min-width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+}
+

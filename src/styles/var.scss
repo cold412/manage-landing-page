@@ -43,3 +43,11 @@ $Mainfontfamily: 'Be Vietnam';
         }
 }
 
+
+@mixin p1 {
+      font-family: $Mainfontfamily;
+      color: $DarkGrayishBlue;
+      padding-top: 3vh;
+      padding-bottom: 3vh;
+      font-size: 1.3em;
+}

@@ -13,11 +13,7 @@
       font-size: 4em;
     }
     p {
-      font-family: $Mainfontfamily;
-      color: $DarkGrayishBlue;
-      padding-top: 3vh;
-      padding-bottom: 3vh;
-      font-size: 1.3em;
+      @include p1;
     }
     .btn {
       @include btn;

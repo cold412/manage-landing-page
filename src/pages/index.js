@@ -1,7 +1,6 @@
 import React from 'react'
 import Navbar from "./navbar"
 import Page1 from "./page1"
-import Test from "./test"
 import "../styles/navbar.scss"
 import '../styles/index.scss'
 import '../styles/page1.scss'

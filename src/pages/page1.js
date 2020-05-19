@@ -12,7 +12,7 @@ const Page1 = () => {
           better products.
           </h1>
         <p>
-          Manage makes it simple for software temas <br />
+          Manage makes it simple for software teams <br />
         to plan day-to-day tasks while keeping the <br />
         larger team goals in view.
 

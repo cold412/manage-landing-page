@@ -29,5 +29,17 @@ $Mainfontfamily: 'Be Vietnam';
     justify-content: center;
     align-items: center;
     border-radius: 1.5rem;
+    box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.4);
+    
+        :hover{
+            background-color: lighten($color: $BrightRed, $amount: 10);
+    color: $VeryPaleRed;
+    height: 4vh;
+    min-width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+        }
 }
 

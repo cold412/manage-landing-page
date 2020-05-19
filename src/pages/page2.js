@@ -13,7 +13,8 @@ const Page2 = () => {
 
         <div className="page2__container__right">
           <div className="page2__box">
-            <div className="page2__btn">01</div>
+            <div className="page2__btn">
+              <h3>01</h3></div>
             <div className="page2__text">
               <h3>Track company-wide progress</h3>
               <p>

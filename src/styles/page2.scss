@@ -1,1 +1,56 @@
 @import "var.scss";
+
+
+
+.page2__container{
+  display: flex;
+  justify-content: space-between;
+  @include padding;
+  padding-top: 5vh;
+
+  .page2__container__left{
+    width: 50vw;
+    h1{
+      @include h11;
+      font-size: 2em;
+    }
+    p{
+      @include p1;
+    }
+  }
+
+  .page2__container__right{
+    width: 50vw;
+    .page2__box{
+      display: flex;
+      align-items: flex-start;
+      width: 30vw;
+      height: 15vh;
+      .page2__btn{
+    background-color: $BrightRed;
+    font-family: $Mainfontfamily;
+    color: $VeryPaleRed;
+    height: 4vh;
+    min-width: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+      }
+    }
+    .page2__text{
+      h3{
+        @include h11;
+        font-size: 1.2em;
+        padding-left: 2vw;
+      }
+      p{
+        @include p1;
+        font-size: 1em;
+        padding-left: 2vw;
+        padding-top: 1vh;
+      }
+    }
+  }
+
+}

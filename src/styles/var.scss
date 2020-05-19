@@ -51,3 +51,18 @@ $Mainfontfamily: 'Be Vietnam';
       padding-bottom: 3vh;
       font-size: 1.3em;
 }
+
+
+
+@mixin h11 {
+      font-family: $Mainfontfamily;
+      color: $DarkBlue;
+      font-size: 4em;
+}
+
+
+@mixin padding {
+    
+    padding-left: 10vw;
+    padding-right: 10vw;
+}

@@ -2,11 +2,11 @@
 
 .container__page1 {
   display: flex;
-  padding-left: 10vw;
-  padding-right: 10vw;
   justify-content: space-between;
-  padding-top: 20vh;
+  padding-top: 15vh;
+  @include padding;
   .container__page1__left {
+    width: 50vw;
     h1 {
       font-family: $Mainfontfamily;
       color: $DarkBlue;
@@ -30,5 +30,8 @@
       align-items: center;
       border-radius: 1.5rem;
     }
+  }
+  .container__page1__right{
+    width: 50vw;
   }
 }

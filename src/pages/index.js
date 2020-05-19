@@ -5,6 +5,7 @@ import Page2 from "./page2"
 import "../styles/navbar.scss"
 import '../styles/index.scss'
 import '../styles/page1.scss'
+import '../styles/page2.scss'
 
 
 

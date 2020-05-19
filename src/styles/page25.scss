@@ -1,0 +1,13 @@
+@import "var.scss";
+
+
+.page25__container{
+  display: flex;
+  justify-content: center;
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+  h1{
+      @include h11;
+      font-size: 3em;
+  }
+}

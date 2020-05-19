@@ -1,0 +1,22 @@
+@import 'var.scss';
+
+.container__page1{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20vh;
+    .container__page1__left{
+        h1{
+            font-family: $Mainfontfamily;
+        }
+        p{
+            font-family: $Mainfontfamily;
+        }
+        .btn{
+            @include btn;
+        }
+    }
+} 
+
+
+
+

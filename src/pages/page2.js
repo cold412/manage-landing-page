@@ -25,7 +25,7 @@ const Page2 = () => {
 
 
           <div className="page2__box">
-            <div className="page2__btn">02</div>
+            <div className="page2__btn"> <h3>02</h3> </div>
             <div className="page2__text">
               <h3>Advanced built-in reports</h3>
               <p>
@@ -34,7 +34,7 @@ const Page2 = () => {
             </div>
           </div>
           <div className="page2__box">
-            <div className="page2__btn">03</div>
+            <div className="page2__btn"> <h3>03</h3></div>
             <div className="page2__text">
               <h3>Everything you need in one place</h3>
               <p>

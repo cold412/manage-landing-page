@@ -9,8 +9,9 @@
     align-items: center;
     text-align: center;
     background-color: $VaryLightGray;
-    width: 30vw;
     margin-top: 10vh;
+    height: 20vh;
+    width: 24vw;
     img {
       position: relative;
       height: 8vh;
@@ -21,7 +22,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 7vh;
+        height: 9vh;
         h2{
             @include h11;
             font-size: 1.2em;

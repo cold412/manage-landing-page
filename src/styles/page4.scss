@@ -1,0 +1,55 @@
+@import "var.scss";
+
+.page4__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .page4__btn {
+    @include btn;
+    width: 10vw;
+    font-weight: bold;
+    margin-bottom: 8vh;
+    margin-top: 5vh;
+  }
+  .page4__btn:hover {
+    background-color: lighten($color: $BrightRed, $amount: 10);
+    color: $VeryPaleRed;
+    height: 4vh;
+    min-width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+  }
+}
+.page4__bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  background-color: $BrightRed;
+  width: 100vw;
+  margin-top: 5vh;
+  height: 25vh;
+  @include padding;
+  h1 {
+    font-family: $Mainfontfamily;
+    color: white;
+    font-size: 3em;
+  }
+  .page4__btn2 {
+    @include btn;
+    width: 10vw;
+    font-weight: bold;
+    margin-bottom: 8vh;
+    margin-top: 5vh;
+    background-color: white;
+    color: $BrightRed;
+
+    :hover {
+      background-color: lighten($color: white, $amount: 10);
+      color: lighten($color: $BrightRed, $amount: 20);
+    }
+  }
+}

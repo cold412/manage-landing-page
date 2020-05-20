@@ -3,10 +3,10 @@ import React from 'react'
 const Page4 = () => {
     return (
         <div className="page4__container">
-{            <div className="page4__btn">
+            <div className="page4__btn">
 
                 Get Started
-            </div>}
+            </div>
             <div className="page4__bottom">
                 <div className="page4__text">
 

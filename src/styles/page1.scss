@@ -11,9 +11,22 @@
       font-family: $Mainfontfamily;
       color: $DarkBlue;
       font-size: 4em;
+
+      @include For1400{
+        font-size: 3em;
+      }
+      @include For1200{
+        font-size: 2em;
+      }
     }
     p {
       @include p1;
+      @include For1400{
+        font-size: 1em;
+      }
+      @include For1200{
+        font-size: .8em;
+      }
     }
     .btn {
       @include btn;
@@ -34,4 +47,5 @@
   .container__page1__right{
     width: 50vw;
   }
+
 }

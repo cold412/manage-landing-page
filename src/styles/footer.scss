@@ -63,11 +63,13 @@
                 border-radius: 1.5rem;
                 border: 1px;
                 padding-left: 2rem;
+                min-width: 10vw;
+
 
             }
             h5{
                 height: 4vh;
-                width: 3vw;
+                min-width: 3.5vw;
                 border-radius: 1.5rem;
                 border: 1px;
                 background-color: $BrightRed;

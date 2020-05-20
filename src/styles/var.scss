@@ -66,3 +66,19 @@ $Mainfontfamily: 'Be Vietnam';
     padding-left: 10vw;
     padding-right: 10vw;
 }
+
+
+
+@mixin for-phone-only {
+  @media (max-width: 599px) { @content; }
+}
+@mixin for-tablet-portrait-up {
+  @media (max-width: 600px) { @content; }
+}
+@mixin For1200{
+  @media (max-width: 1200px) { @content; }
+}
+@mixin For1400 {
+  @media (max-width: 1400px) { @content; }
+}
+

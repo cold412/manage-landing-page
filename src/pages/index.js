@@ -25,7 +25,7 @@ const index = () => {
             <Page2/>
             <Page25/>
             <Page3/>
-            <Page4/>
+{/*             <Page4/> */}
             <Footer/>
         </div>
     )

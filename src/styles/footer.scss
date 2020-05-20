@@ -1,7 +1,90 @@
 @import "var.scss";
 
-
-
 .footer__container{
+    height: 30vh;
     background-color: $VeryDarkBlue;
+    @include padding;
+}
+
+
+.boxWrapper{
+    display: flex;
+    justify-content: space-between;
+    height: 15vh;
+    padding-top: 10vh;
+
+    .footer__box1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 15vh;
+        .box1__icons{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+
+    .footer__box2{
+        display: flex;
+        height: 15vh;
+        ul{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            li{
+                list-style: none;
+                padding-bottom: 1vh;
+                font-family: $Mainfontfamily;
+                color: white;
+            }
+        }
+
+
+        .box2__left{
+            padding-right: 15vw;
+        }
+    }
+
+
+
+    .footer__box3{
+        display: flex; 
+        flex-direction: column;
+        .box3__top{
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-bottom: 5vh;
+            input{
+                height: 4vh;
+                border-radius: 1.5rem;
+                border: 1px;
+                padding-left: 1rem;
+            }
+            h5{
+
+                height: 4vh;
+                width: 3vw;
+                border-radius: 1.5rem;
+                border: 1px;
+                background-color: $BrightRed;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: white;
+            }
+        }
+
+        .box3__bottom{
+            display: flex;
+            justify-content: flex-end;
+            padding-bottom: 5vh;
+            p{
+                color: $DarkGrayishBlue;
+                font-size: 0.8em;
+                font-family: $Mainfontfamily;
+            }
+        }
+    }
 }

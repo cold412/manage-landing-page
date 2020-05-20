@@ -23,7 +23,7 @@ const Navbar = ({ data }) => {
         </ul>
       </div>
       <div className="btn">
-        <h4>Get Started</h4>
+        <h5>Get Started</h5>
       </div>
     </div>
   )

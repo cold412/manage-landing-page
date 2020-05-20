@@ -1,0 +1,25 @@
+@import "var.scss";
+
+.page35__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .page35__btn {
+    @include btn;
+    width: 10vw;
+    font-weight: bold;
+    margin-bottom: 8vh;
+    margin-top: 5vh;
+  }
+  .page35__btn:hover {
+    background-color: lighten($color: $BrightRed, $amount: 10);
+    color: $VeryPaleRed;
+    height: 4vh;
+    min-width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.5rem;
+  }
+}

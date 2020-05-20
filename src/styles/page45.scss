@@ -1,0 +1,36 @@
+@import "var.scss";
+
+.page4__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: $BrightRed;
+  justify-content: space-between;
+  height: 24vh;
+  @include padding;
+
+  .page4__bottom {
+    .page4__text {
+      h1 {
+        font-family: $Mainfontfamily;
+        color: white;
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  .page4__btn2 {
+    @include btn;
+    width: 10vw;
+    font-weight: bold;
+    margin-bottom: 8vh;
+    margin-top: 5vh;
+    background-color: white;
+    color: $BrightRed;
+
+    :hover {
+      background-color: lighten($color: white, $amount: 10);
+      color: lighten($color: $BrightRed, $amount: 20);
+    }
+  }
+}

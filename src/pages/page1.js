@@ -18,7 +18,7 @@ const Page1 = () => {
 
           </p>
       <div className="btn">
-        Get Started
+       <h5>Get Started</h5>
         </div>
       </div>
       <div className="container__page1__right">
